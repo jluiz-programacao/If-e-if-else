@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 int main (){
-    int numero = 10;
+    float temperatura = 31.0;
   
 
    
-    if(numero % 2 == 0) {
-        printf("O número é par\n");
+    if(temperatura >= 30.5 ) {
+        printf("Tá calor aqui!\n");
 
     }else {
-        printf("O número é impar 2\n");
+        printf("Tá frio de mais!\n");
 
     }
 
